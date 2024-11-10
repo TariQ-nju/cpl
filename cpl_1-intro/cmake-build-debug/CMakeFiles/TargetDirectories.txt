@@ -1,0 +1,4 @@
+D:/cpl/cpl_1/cmake-build-debug/CMakeFiles/hello.dir
+D:/cpl/cpl_1/cmake-build-debug/CMakeFiles/game.dir
+D:/cpl/cpl_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cpl/cpl_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

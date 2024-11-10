@@ -1,0 +1,7 @@
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/primes.dir
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/binary-search.dir
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/digits-while.dir
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/selection-sort.dir
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/palindrome.dir
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cpl/cpl_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

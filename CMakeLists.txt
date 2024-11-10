@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.29)
+project(untitled )
+
+set(CMAKE_C_STANDARD 17)
+add_subdirectory(cpl_1-intro)
+add_subdirectory(cpl_2)
+add_subdirectory(untitled)
+add_subdirectory(cpl_3)
+add_subdirectory(cpl_4)
+add_subdirectory(cpl_5-loops)
+add_subdirectory(cpl_6-function)
+add_subdirectory(cpl_7-data-types)

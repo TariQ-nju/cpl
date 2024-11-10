@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpl_4-for-a-while",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "binary-search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary-search-Debug-72378c66f744ac465a95.json",
+					"name" : "binary-search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "digits-while::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-digits-while-Debug-e34d667e7cb0320f868f.json",
+					"name" : "digits-while",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palindrome-Debug-8ebdc7672abd12f10d56.json",
+					"name" : "palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "primes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-primes-Debug-ace8ff1d45ba950ed2f9.json",
+					"name" : "primes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "selection-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-selection-sort-Debug-7e9da6f9430819ba70b7.json",
+					"name" : "selection-sort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cpl/cpl_4/cmake-build-debug",
+		"source" : "D:/cpl/cpl_4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
