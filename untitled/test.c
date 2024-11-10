@@ -1,30 +1,43 @@
 #include<stdio.h>
-int arr[2001];int copy[2001];
+#include<math.h>
+#include<stdbool.h>
+#include <stdlib.h>
+bool prime(int x);
+void reverse(char t[],int len);
+int n;
 int main(){
-	int n,t=0,min=2000,flag=0;
+	int sum=0;
 	scanf("%d",&n);
-	for(int i=0;i<n;i++) {
-		scanf("%d",&arr[i]);
-		copy[i]=arr[i];
-	}
-	for(int i=n-1;i>-1;i--) {
-		if(arr[i]>arr[i-1]) {
-			for(int j=i;j<n;j++) {
-				if(arr[j]>arr[i-1])min=arr[j]<min?arr[j]:min;
+	for(int i=2;i<=n;i++) {
+		if (prime(i)) {
+			char t[10] = "";
+			sprintf(t,"%d",i);
+			int len=0,a=i;
+			while(a) {
+				len++;
+				a=a/10;
 			}
-			for(int j=i;j<n;j++) {if(arr[j]==min){flag=j;break;}}
-			t=arr[flag];
-			arr[flag]=arr[i-1];
-			arr[i-1]=t;
-			copy[flag]=arr[flag];
-
-			for(int j=i,l=0;j<n;j++,l++) {arr[j]=copy[n-1-l];}
-			break;
+			reverse(t,len);
+			int m=atoi(t);
+			if (prime(m)) sum++;
 		}
 	}
-	for(int i=0;i<n;i++) {
-		if(i==n-1){printf("%d",arr[i]);break;}
-		printf("%d ",arr[i]);
-	}
+	printf("%d",sum);
 	return 0;
+}
+void reverse(char t[],int len) {
+	for(int i=0;i<len/2;i++) {
+		char temp=t[len-1-i];
+		t[len-1-i]=t[i];
+		t[i]=temp;
+	}
+}
+bool prime(int x) {
+	int flag = true;
+	for (int i = 2; i <= sqrt(x + 0.5); i++) {
+		if (x % i == 0) {
+			flag = false;
+		}
+	}
+	return flag;
 }
