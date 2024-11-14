@@ -355,6 +355,39 @@ build untitled/balanced-3.exe: C_EXECUTABLE_LINKER__balanced-3_Debug untitled/CM
   TARGET_IMPLIB = untitled\libbalanced-3.dll.a
   TARGET_PDB = balanced-3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target words
+
+
+#############################################
+# Order-only phony target for words
+
+build cmake_object_order_depends_target_words: phony || .
+
+build untitled/CMakeFiles/words.dir/words.c.obj: C_COMPILER__words_unscanned_Debug D$:/cpl/untitled/words.c || cmake_object_order_depends_target_words
+  DEP_FILE = untitled\CMakeFiles\words.dir\words.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = untitled\CMakeFiles\words.dir
+  OBJECT_FILE_DIR = untitled\CMakeFiles\words.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target words
+
+
+#############################################
+# Link the executable untitled\words.exe
+
+build untitled/words.exe: C_EXECUTABLE_LINKER__words_Debug untitled/CMakeFiles/words.dir/words.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = untitled\CMakeFiles\words.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = untitled\words.exe
+  TARGET_IMPLIB = untitled\libwords.dll.a
+  TARGET_PDB = words.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1104,6 +1137,10 @@ build test: phony untitled/test.exe
 
 build test.exe: phony untitled/test.exe
 
+build words: phony untitled/words.exe
+
+build words.exe: phony untitled/words.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1168,7 +1205,7 @@ build cpl_7-data-types/all: phony cpl_7-data-types/object.exe
 #############################################
 # Folder: D:/cpl/cmake-build-debug/untitled
 
-build untitled/all: phony untitled/test.exe untitled/balanced-3.exe
+build untitled/all: phony untitled/test.exe untitled/balanced-3.exe untitled/words.exe
 
 # =============================================================================
 # Built-in targets
