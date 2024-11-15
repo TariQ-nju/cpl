@@ -39,6 +39,7 @@ D:/cpl/cmake-build-debug/cpl_6-function/CMakeFiles/rebuild_cache.dir
 D:/cpl/cmake-build-debug/cpl_7-data-types/CMakeFiles/object.dir
 D:/cpl/cmake-build-debug/cpl_7-data-types/CMakeFiles/edit_cache.dir
 D:/cpl/cmake-build-debug/cpl_7-data-types/CMakeFiles/rebuild_cache.dir
-D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/cpl7_pointers_and_arrays.dir
+D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/pointers.dir
+D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/section-sort.dir
 D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/edit_cache.dir
 D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/rebuild_cache.dir

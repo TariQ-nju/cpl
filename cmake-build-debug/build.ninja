@@ -1052,37 +1052,70 @@ build cpl_7-data-types/rebuild_cache: phony cpl_7-data-types/CMakeFiles/rebuild_
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target cpl7_pointers_and_arrays
+# Object build statements for EXECUTABLE target pointers
 
 
 #############################################
-# Order-only phony target for cpl7_pointers_and_arrays
+# Order-only phony target for pointers
 
-build cmake_object_order_depends_target_cpl7_pointers_and_arrays: phony || .
+build cmake_object_order_depends_target_pointers: phony || .
 
-build cpl_8-pointers-and-arrays/CMakeFiles/cpl7_pointers_and_arrays.dir/main.c.obj: C_COMPILER__cpl7_pointers_and_arrays_unscanned_Debug D$:/cpl/cpl_8-pointers-and-arrays/main.c || cmake_object_order_depends_target_cpl7_pointers_and_arrays
-  DEP_FILE = cpl_8-pointers-and-arrays\CMakeFiles\cpl7_pointers_and_arrays.dir\main.c.obj.d
+build cpl_8-pointers-and-arrays/CMakeFiles/pointers.dir/pointers.c.obj: C_COMPILER__pointers_unscanned_Debug D$:/cpl/cpl_8-pointers-and-arrays/pointers.c || cmake_object_order_depends_target_pointers
+  DEP_FILE = cpl_8-pointers-and-arrays\CMakeFiles\pointers.dir\pointers.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = cpl_8-pointers-and-arrays\CMakeFiles\cpl7_pointers_and_arrays.dir
-  OBJECT_FILE_DIR = cpl_8-pointers-and-arrays\CMakeFiles\cpl7_pointers_and_arrays.dir
+  OBJECT_DIR = cpl_8-pointers-and-arrays\CMakeFiles\pointers.dir
+  OBJECT_FILE_DIR = cpl_8-pointers-and-arrays\CMakeFiles\pointers.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target cpl7_pointers_and_arrays
+# Link build statements for EXECUTABLE target pointers
 
 
 #############################################
-# Link the executable cpl_8-pointers-and-arrays\cpl7_pointers_and_arrays.exe
+# Link the executable cpl_8-pointers-and-arrays\pointers.exe
 
-build cpl_8-pointers-and-arrays/cpl7_pointers_and_arrays.exe: C_EXECUTABLE_LINKER__cpl7_pointers_and_arrays_Debug cpl_8-pointers-and-arrays/CMakeFiles/cpl7_pointers_and_arrays.dir/main.c.obj
+build cpl_8-pointers-and-arrays/pointers.exe: C_EXECUTABLE_LINKER__pointers_Debug cpl_8-pointers-and-arrays/CMakeFiles/pointers.dir/pointers.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = cpl_8-pointers-and-arrays\CMakeFiles\cpl7_pointers_and_arrays.dir
+  OBJECT_DIR = cpl_8-pointers-and-arrays\CMakeFiles\pointers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = cpl_8-pointers-and-arrays\cpl7_pointers_and_arrays.exe
-  TARGET_IMPLIB = cpl_8-pointers-and-arrays\libcpl7_pointers_and_arrays.dll.a
-  TARGET_PDB = cpl7_pointers_and_arrays.exe.dbg
+  TARGET_FILE = cpl_8-pointers-and-arrays\pointers.exe
+  TARGET_IMPLIB = cpl_8-pointers-and-arrays\libpointers.dll.a
+  TARGET_PDB = pointers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target section-sort
+
+
+#############################################
+# Order-only phony target for section-sort
+
+build cmake_object_order_depends_target_section-sort: phony || .
+
+build cpl_8-pointers-and-arrays/CMakeFiles/section-sort.dir/section-sort.c.obj: C_COMPILER__section-sort_unscanned_Debug D$:/cpl/cpl_8-pointers-and-arrays/section-sort.c || cmake_object_order_depends_target_section-sort
+  DEP_FILE = cpl_8-pointers-and-arrays\CMakeFiles\section-sort.dir\section-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = cpl_8-pointers-and-arrays\CMakeFiles\section-sort.dir
+  OBJECT_FILE_DIR = cpl_8-pointers-and-arrays\CMakeFiles\section-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target section-sort
+
+
+#############################################
+# Link the executable cpl_8-pointers-and-arrays\section-sort.exe
+
+build cpl_8-pointers-and-arrays/section-sort.exe: C_EXECUTABLE_LINKER__section-sort_Debug cpl_8-pointers-and-arrays/CMakeFiles/section-sort.dir/section-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_8-pointers-and-arrays\CMakeFiles\section-sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_8-pointers-and-arrays\section-sort.exe
+  TARGET_IMPLIB = cpl_8-pointers-and-arrays\libsection-sort.dll.a
+  TARGET_PDB = section-sort.exe.dbg
 
 
 #############################################
@@ -1129,10 +1162,6 @@ build binary-searchPlus.exe: phony cpl_6-function/binary-searchPlus.exe
 build circle: phony cpl_2/circle.exe
 
 build circle.exe: phony cpl_2/circle.exe
-
-build cpl7_pointers_and_arrays: phony cpl_8-pointers-and-arrays/cpl7_pointers_and_arrays.exe
-
-build cpl7_pointers_and_arrays.exe: phony cpl_8-pointers-and-arrays/cpl7_pointers_and_arrays.exe
 
 build digits-while: phony cpl_4/digits-while.exe
 
@@ -1182,9 +1211,17 @@ build palindrome: phony cpl_4/palindrome.exe
 
 build palindrome.exe: phony cpl_4/palindrome.exe
 
+build pointers: phony cpl_8-pointers-and-arrays/pointers.exe
+
+build pointers.exe: phony cpl_8-pointers-and-arrays/pointers.exe
+
 build primes: phony cpl_4/primes.exe
 
 build primes.exe: phony cpl_4/primes.exe
+
+build section-sort: phony cpl_8-pointers-and-arrays/section-sort.exe
+
+build section-sort.exe: phony cpl_8-pointers-and-arrays/section-sort.exe
 
 build selection-sort: phony cpl_4/selection-sort.exe
 
@@ -1270,7 +1307,7 @@ build cpl_7-data-types/all: phony cpl_7-data-types/object.exe
 #############################################
 # Folder: D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays
 
-build cpl_8-pointers-and-arrays/all: phony cpl_8-pointers-and-arrays/cpl7_pointers_and_arrays.exe
+build cpl_8-pointers-and-arrays/all: phony cpl_8-pointers-and-arrays/pointers.exe cpl_8-pointers-and-arrays/section-sort.exe
 
 # =============================================================================
 

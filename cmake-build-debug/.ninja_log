@@ -6,7 +6,7 @@
 8	234	7491304523375141	cpl_2/CMakeFiles/sphere.dir/sphere.cpp.obj	6c7974e525ea4757
 84	219	7503482527424306	cpl_4/selection-sort.exe	7e42c54676144913
 236	514	7491304525656814	cpl_2/sphere.exe	7f12a7d241503694
-4	3345	7533615690791557	build.ninja	61fbf165692dc08e
+4	3345	7533660858459546	build.ninja	61fbf165692dc08e
 199	477	7491330979242182	cpl_2/mol.exe	8d4453e47ff01ff1
 82	197	7503503403327926	untitled/main.exe	dbe43e99a659b2fb
 9	161	7493061031314414	cpl_3/CMakeFiles/leap.dir/leap.c.obj	91e781a75682e158
@@ -38,3 +38,5 @@
 7	477	7515498388048174	cpl_6-function/CMakeFiles/binary-searchPlus.dir/binary-search.c.obj	8ed725eb516b8582
 479	1063	7515498392759600	cpl_6-function/binary-searchPlus.exe	a3e81ffd6e768451
 9	529	7521711746195691	cpl_7-data-types/CMakeFiles/object.dir/object.c.obj	ef42be921f158d38
+4	198	7533622999458801	cpl_8-pointers-and-arrays/CMakeFiles/pointers.dir/pointers.c.obj	61876bd805f1fd4d
+199	473	7533623001399885	cpl_8-pointers-and-arrays/pointers.exe	e1174bed44932e5b
