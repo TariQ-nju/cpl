@@ -243,6 +243,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+cpl7_pointers_and_arrays_BINARY_DIR:STATIC=D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays
+
+//Value Computed by CMake
+cpl7_pointers_and_arrays_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cpl7_pointers_and_arrays_SOURCE_DIR:STATIC=D:/cpl/cpl_8-pointers-and-arrays
+
+//Value Computed by CMake
 cpl_2-types_BINARY_DIR:STATIC=D:/cpl/cmake-build-debug/cpl_2
 
 //Value Computed by CMake
@@ -435,7 +444,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

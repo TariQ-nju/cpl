@@ -77,6 +77,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/cpl/cmake-build-debug/cpl_7-data-types/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
