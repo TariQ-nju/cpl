@@ -1,6 +1,4 @@
-//
-// Created by tariq on 24-11-21.
-//
+
 #include<stdio.h>
 #include<string.h>
 char stack[1000];
