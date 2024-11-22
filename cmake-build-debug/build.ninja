@@ -1179,37 +1179,103 @@ build cpl_8-pointers-and-arrays/rebuild_cache: phony cpl_8-pointers-and-arrays/C
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target cpl_9_pointers_c_strings
+# Object build statements for EXECUTABLE target strlen
 
 
 #############################################
-# Order-only phony target for cpl_9_pointers_c_strings
+# Order-only phony target for strlen
 
-build cmake_object_order_depends_target_cpl_9_pointers_c_strings: phony || .
+build cmake_object_order_depends_target_strlen: phony || .
 
-build cpl_9-pointers-c-strings/CMakeFiles/cpl_9_pointers_c_strings.dir/main.c.obj: C_COMPILER__cpl_9_pointers_c_strings_unscanned_Debug D$:/cpl/cpl_9-pointers-c-strings/main.c || cmake_object_order_depends_target_cpl_9_pointers_c_strings
-  DEP_FILE = cpl_9-pointers-c-strings\CMakeFiles\cpl_9_pointers_c_strings.dir\main.c.obj.d
+build cpl_9-pointers-c-strings/CMakeFiles/strlen.dir/strlen.c.obj: C_COMPILER__strlen_unscanned_Debug D$:/cpl/cpl_9-pointers-c-strings/strlen.c || cmake_object_order_depends_target_strlen
+  DEP_FILE = cpl_9-pointers-c-strings\CMakeFiles\strlen.dir\strlen.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\cpl_9_pointers_c_strings.dir
-  OBJECT_FILE_DIR = cpl_9-pointers-c-strings\CMakeFiles\cpl_9_pointers_c_strings.dir
+  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\strlen.dir
+  OBJECT_FILE_DIR = cpl_9-pointers-c-strings\CMakeFiles\strlen.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target cpl_9_pointers_c_strings
+# Link build statements for EXECUTABLE target strlen
 
 
 #############################################
-# Link the executable cpl_9-pointers-c-strings\cpl_9_pointers_c_strings.exe
+# Link the executable cpl_9-pointers-c-strings\strlen.exe
 
-build cpl_9-pointers-c-strings/cpl_9_pointers_c_strings.exe: C_EXECUTABLE_LINKER__cpl_9_pointers_c_strings_Debug cpl_9-pointers-c-strings/CMakeFiles/cpl_9_pointers_c_strings.dir/main.c.obj
+build cpl_9-pointers-c-strings/strlen.exe: C_EXECUTABLE_LINKER__strlen_Debug cpl_9-pointers-c-strings/CMakeFiles/strlen.dir/strlen.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\cpl_9_pointers_c_strings.dir
+  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\strlen.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = cpl_9-pointers-c-strings\cpl_9_pointers_c_strings.exe
-  TARGET_IMPLIB = cpl_9-pointers-c-strings\libcpl_9_pointers_c_strings.dll.a
-  TARGET_PDB = cpl_9_pointers_c_strings.exe.dbg
+  TARGET_FILE = cpl_9-pointers-c-strings\strlen.exe
+  TARGET_IMPLIB = cpl_9-pointers-c-strings\libstrlen.dll.a
+  TARGET_PDB = strlen.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target strcpy
+
+
+#############################################
+# Order-only phony target for strcpy
+
+build cmake_object_order_depends_target_strcpy: phony || .
+
+build cpl_9-pointers-c-strings/CMakeFiles/strcpy.dir/strcpy.c.obj: C_COMPILER__strcpy_unscanned_Debug D$:/cpl/cpl_9-pointers-c-strings/strcpy.c || cmake_object_order_depends_target_strcpy
+  DEP_FILE = cpl_9-pointers-c-strings\CMakeFiles\strcpy.dir\strcpy.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\strcpy.dir
+  OBJECT_FILE_DIR = cpl_9-pointers-c-strings\CMakeFiles\strcpy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strcpy
+
+
+#############################################
+# Link the executable cpl_9-pointers-c-strings\strcpy.exe
+
+build cpl_9-pointers-c-strings/strcpy.exe: C_EXECUTABLE_LINKER__strcpy_Debug cpl_9-pointers-c-strings/CMakeFiles/strcpy.dir/strcpy.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\strcpy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_9-pointers-c-strings\strcpy.exe
+  TARGET_IMPLIB = cpl_9-pointers-c-strings\libstrcpy.dll.a
+  TARGET_PDB = strcpy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target strcmp
+
+
+#############################################
+# Order-only phony target for strcmp
+
+build cmake_object_order_depends_target_strcmp: phony || .
+
+build cpl_9-pointers-c-strings/CMakeFiles/strcmp.dir/strcmp.c.obj: C_COMPILER__strcmp_unscanned_Debug D$:/cpl/cpl_9-pointers-c-strings/strcmp.c || cmake_object_order_depends_target_strcmp
+  DEP_FILE = cpl_9-pointers-c-strings\CMakeFiles\strcmp.dir\strcmp.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\strcmp.dir
+  OBJECT_FILE_DIR = cpl_9-pointers-c-strings\CMakeFiles\strcmp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strcmp
+
+
+#############################################
+# Link the executable cpl_9-pointers-c-strings\strcmp.exe
+
+build cpl_9-pointers-c-strings/strcmp.exe: C_EXECUTABLE_LINKER__strcmp_Debug cpl_9-pointers-c-strings/CMakeFiles/strcmp.dir/strcmp.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_9-pointers-c-strings\CMakeFiles\strcmp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_9-pointers-c-strings\strcmp.exe
+  TARGET_IMPLIB = cpl_9-pointers-c-strings\libstrcmp.dll.a
+  TARGET_PDB = strcmp.exe.dbg
 
 
 #############################################
@@ -1256,10 +1322,6 @@ build binary-searchPlus.exe: phony cpl_6-function/binary-searchPlus.exe
 build circle: phony cpl_2/circle.exe
 
 build circle.exe: phony cpl_2/circle.exe
-
-build cpl_9_pointers_c_strings: phony cpl_9-pointers-c-strings/cpl_9_pointers_c_strings.exe
-
-build cpl_9_pointers_c_strings.exe: phony cpl_9-pointers-c-strings/cpl_9_pointers_c_strings.exe
 
 build digits-while: phony cpl_4/digits-while.exe
 
@@ -1336,6 +1398,18 @@ build stack.exe: phony untitled/stack.exe
 build stars: phony cpl_6-function/stars.exe
 
 build stars.exe: phony cpl_6-function/stars.exe
+
+build strcmp: phony cpl_9-pointers-c-strings/strcmp.exe
+
+build strcmp.exe: phony cpl_9-pointers-c-strings/strcmp.exe
+
+build strcpy: phony cpl_9-pointers-c-strings/strcpy.exe
+
+build strcpy.exe: phony cpl_9-pointers-c-strings/strcpy.exe
+
+build strlen: phony cpl_9-pointers-c-strings/strlen.exe
+
+build strlen.exe: phony cpl_9-pointers-c-strings/strlen.exe
 
 build test: phony untitled/test.exe
 
@@ -1416,7 +1490,7 @@ build cpl_8-pointers-and-arrays/all: phony cpl_8-pointers-and-arrays/pointers.ex
 #############################################
 # Folder: D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings
 
-build cpl_9-pointers-c-strings/all: phony cpl_9-pointers-c-strings/cpl_9_pointers_c_strings.exe
+build cpl_9-pointers-c-strings/all: phony cpl_9-pointers-c-strings/strlen.exe cpl_9-pointers-c-strings/strcpy.exe cpl_9-pointers-c-strings/strcmp.exe
 
 # =============================================================================
 

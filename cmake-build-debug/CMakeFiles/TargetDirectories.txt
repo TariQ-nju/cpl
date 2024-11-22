@@ -44,3 +44,8 @@ D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/pointers.dir
 D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/section-sort.dir
 D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/edit_cache.dir
 D:/cpl/cmake-build-debug/cpl_8-pointers-and-arrays/CMakeFiles/rebuild_cache.dir
+D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings/CMakeFiles/strlen.dir
+D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings/CMakeFiles/strcpy.dir
+D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings/CMakeFiles/strcmp.dir
+D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings/CMakeFiles/edit_cache.dir
+D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings/CMakeFiles/rebuild_cache.dir
