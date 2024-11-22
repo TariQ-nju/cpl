@@ -306,6 +306,15 @@ cpl_6_function_IS_TOP_LEVEL:STATIC=OFF
 cpl_6_function_SOURCE_DIR:STATIC=D:/cpl/cpl_6-function
 
 //Value Computed by CMake
+cpl_9_pointers_c_strings_BINARY_DIR:STATIC=D:/cpl/cmake-build-debug/cpl_9-pointers-c-strings
+
+//Value Computed by CMake
+cpl_9_pointers_c_strings_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cpl_9_pointers_c_strings_SOURCE_DIR:STATIC=D:/cpl/cpl_9-pointers-c-strings
+
+//Value Computed by CMake
 untitled_BINARY_DIR:STATIC=D:/cpl/cmake-build-debug/untitled
 
 //Value Computed by CMake
@@ -417,7 +426,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
